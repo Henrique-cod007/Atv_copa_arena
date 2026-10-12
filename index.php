@@ -73,7 +73,7 @@ $mensagem = "";
         /* background-color: rgb(179, 179, 205); */
         background: none;
         border: none;
-        border-bottom: 2px solid rgb(230, 230, 230) ;
+        border-bottom: 2px solid rgb(95, 46, 175) ;
         color: rgb(173, 169, 169);
         width: 350px;
         height: 30px;
@@ -89,12 +89,12 @@ $mensagem = "";
         border: none;
     }
     fieldset{
-         border: 3px solid white;
+         border: 3px solid rgb(95, 46, 175)  ;
          border-radius: 10px;
          
     }
     legend{
-        border: 2px solid white;
+        border: 2px solid rgb(95, 46, 175) ;
         padding: 5px;
         text-align: center;
     }
@@ -120,7 +120,7 @@ $mensagem = "";
     button{
         padding: 5px;
         margin-bottom: 5px;
-        border: 2px solid white;
+        border: 2px solid rgb(68, 29, 131);
         background: none;
         color: white;
     }
@@ -131,7 +131,7 @@ $mensagem = "";
     <div id="formu">
         
         <fieldset>
-        <legend>inscrição jogadores</legend>
+        <legend>Inscrição jogadores</legend>
     <form action="index.php" method="POST">
 
         <div class="label_div">
